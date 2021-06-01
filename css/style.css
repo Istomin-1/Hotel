@@ -30,11 +30,46 @@ html {
 *, *::before, *::after {
     box-sizing: inherit;
 }
+.logo-pic {
+    margin-left: 30px;
+    margin-top: 30px;
+}
+body {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-size: 16px;
+    line-height: 1.2;
+    font-weight: 400;
+    color: #1F2041;
+}
+.main {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 150px;
+    margin-top: 145px;
+    margin-right: 158px;
+    justify-content: space-between;
+}
+.wrapper-color {
+    max-width: 282px;
+    background-color: rgb(140, 129, 151);
+    width: 282px;
+    height: 600px;
+}
 
+.wrapper-type {
+    max-width: 500px;
+    background-color: rgb(140, 129, 151);
+    width: 436px;
+    height: 321px;
+}
 
-  .item {
-      width: 200px;
-      height: 200px;
-      background-color: green;
-      padding: 20px;
-  }
+.header {
+    background-color: rgb(107, 107, 192);
+}
+.main__color {
+    width: 70px;
+    height: 70px;
+    background-color: brown;
+    border-radius: 6px;
+}
