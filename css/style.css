@@ -37,7 +37,7 @@ html {
 body {
     font-family: 'Montserrat';
     font-style: normal;
-    font-size: 16px;
+    font-size: 19px;
     line-height: 1.2;
     font-weight: 400;
     color: #1F2041;
@@ -52,24 +52,108 @@ body {
 }
 .wrapper-color {
     max-width: 282px;
-    background-color: rgb(140, 129, 151);
     width: 282px;
-    height: 600px;
+    height: 610px;
 }
 
 .wrapper-type {
     max-width: 500px;
-    background-color: rgb(140, 129, 151);
     width: 436px;
     height: 321px;
 }
 
 .header {
-    background-color: rgb(107, 107, 192);
 }
-.main__color {
+.main__color {   
+    display: flex; 
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+}
+.main__color-view {
     width: 70px;
     height: 70px;
-    background-color: brown;
     border-radius: 6px;
+    margin-right: 40px;
 }
+
+.main__color-text {
+    display: flex; 
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+}
+.main__color-text__color-shade {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 19px;
+}
+.main__color-text__color-hex {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+}
+.main__type {
+    display: flex; 
+    margin-bottom: 50px;
+}
+.main__type-label {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    margin-right: 30px;
+    color: rgba(31, 32, 65, 0.25);
+    width: 28px;
+    text-align: right;
+}
+
+.main__type-text {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+}
+
+.dark-shade100 {
+   background-color: rgba(31, 32, 65, 1);
+}
+
+.dark-shade75 {
+    background-color: rgba(31, 32, 65, 0.75);
+ }
+
+ .dark-shade50 {
+    background-color: rgba(31, 32, 65, 0.5);
+ }
+
+ .dark-shade25 {
+    background-color: rgba(31, 32, 65, 0.25);
+ }
+
+ .dark-shade5 {
+    background-color: rgba(31, 32, 65, 0.05);
+ }
+ .purple {
+    background: #BC9CFF;
+ }
+ .green {
+    background: #6FCF97;
+ }
+ .h1 {
+    font-size: 24px;
+ }
+ .h2 {
+    font-size: 19px;
+ }
+ .h3 {
+    font-size: 12px;
+ }
+ .body {
+    font-size: 12px;
+ }
+ .shadeFont75 {
+    font-size: 12px;
+    color: rgba(31, 32, 65, 0.75);
+ }
+ .footer {
+     height: 78px;
+ }
