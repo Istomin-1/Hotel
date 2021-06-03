@@ -24,7 +24,7 @@
          url('../fonts/montserrat-v15-latin_cyrillic-700.ttf') format('truetype'), /* Safari, Android, iOS */
          url('../fonts/montserrat-v15-latin_cyrillic-700.svg#Montserrat') format('svg'); /* Legacy iOS */
   }
-html {
+  html {
     box-sizing: border-box;
 }
 *, *::before, *::after {
@@ -33,6 +33,15 @@ html {
 .logo-pic {
     margin-left: 30px;
     margin-top: 30px;
+}
+:root {
+    --black100: rgba(31, 32, 65, 1);
+    --black75: rgba(31, 32, 65, 0.75);
+    --black50: rgba(31, 32, 65, 0.5);
+    --black25: rgba(31, 32, 65, 0.25);
+    --black5: rgba(31, 32, 65, 0.5);
+    --purple: #BC9CFF;
+    --green: #6FCF97;
 }
 body {
     font-family: 'Montserrat';
@@ -67,6 +76,7 @@ h3 {
     color: #1F2041;
     text-transform: uppercase;
 }
+
 .color-type {
     display: flex;
     flex-wrap: wrap;
@@ -127,8 +137,8 @@ h3 {
     font-style: normal;
     font-weight: 400;
     margin-right: 30px;
-    color:  rgba(31, 32, 65, 0.25);
-    width: 28px;
+    color: var(--black25);
+    width: 37px;
     text-align: right;
 }
 .type__text {
@@ -137,40 +147,45 @@ h3 {
     font-weight: 700;
 }
 .dark-shade100 {
-   background-color: rgba(31, 32, 65, 1);
+   background-color: var(--black100);
 }
 .dark-shade75 {
-    background-color: rgba(31, 32, 65, 0.75);
+    background-color: var(--black75);
 }
 .dark-shade50 {
-    background-color: rgba(31, 32, 65, 0.5);
+    background-color: var(--black50);
 }
 .dark-shade25 {
-    background-color: rgba(31, 32, 65, 0.25);
+    background-color: var(--black25);
 }
 .dark-shade5 {
-    background-color: rgba(31, 32, 65, 0.05);
+    background-color: var(--black5)
 }
 .purple {
-    background: #BC9CFF;
+    background: var(--purple);
 }
 .green {
-    background: #6FCF97;
+    background: var(--green);
 }
 .type__label__size-h1 {
     font-size: 24px;
+    line-height: 29px;
 }
 .type__label__size-h2 {
     font-size: 19px;
+    line-height: 23px;
 }
 .type__label__size-h3 {
     font-size: 12px;
+    line-height: 15px;
 }
 .type__label__size-body {
     font-size: 14px;
+    line-height: 24px;
 }
 .type__text__size-body {
     font-weight: 400;
+    width: 301px;
 }
 .footer {
      height: 78px;
