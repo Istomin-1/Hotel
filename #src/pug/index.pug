@@ -1,0 +1,74 @@
+doctype html
+head
+	meta(charset='UTF-8')
+	meta(http-equiv='X-UA-Compatible' content='IE=edge')
+	meta(name='viewport' content='width=device-width, initial-scale=1.0')
+	title UI Kit
+	link(rel='stylesheet' href='/css/reset.css')
+	link(rel='stylesheet' href='/css/style.css')
+header.header
+	a.logo-link(href='/')
+		img.logo-pic(src='/img/svg/logo.svg' alt='Hotel')
+section.color-type
+	ul.color
+		li.color__item
+			span.color__view.dark-shade100
+			.color__text
+				span.color__name Dark Shade 100%
+				span.color__hex #1F2041
+		li.color__item
+			span.color__view.dark-shade75
+			.color__text
+				span.color__name Dark Shade 75%
+				span.color__hex #1F2041
+		li.color__item
+			span.color__view.dark-shade50
+			.color__text
+				span.color__name Dark Shade 50%
+				span.color__hex #1F2041
+		li.color__item
+			span.color__view.dark-shade25
+			.color__text
+				span.color__name Dark Shade 25%
+				span.color__hex #1F2041
+		li.color__item
+			span.color__view.dark-shade5
+			.color__text
+				span.color__name Dark Shade 5%
+				span.color__hex #1F2041
+		li.color__item
+			span.color__view.purple
+			.color__text
+				span.color__name Purple
+				span.color__hex #BC9CFF
+		li.color__item
+			span.color__view.green
+			.color__text
+				span.color__name Green
+				span.color__hex #6FCF97
+	ul.type
+		li.type__item
+			span.type__label.type__label__size-h1 H1
+			h1.type__text
+				| This one is the sub-section or
+				| widget title
+		li.type__item
+			span.type__label.type__label__size-h2 H2
+			h2.type__text
+				| Next one is the item title inside
+				| widgets
+		li.type__item
+			span.type__label.type__label__size-h3 H3
+			h3.type__text This is a label or CTA text
+		li.type__item
+			span.type__label.type__label__size-body Body
+			.type__text.type__text__size-body
+				| This is the body text which is used for most
+				| of the design, like paragraphs, lists, etc.
+section.from-elements
+	aside.form1
+		include /modules/textField
+		include /modules/textField
+		include /modules/textField
+		p3 
+footer.footer
