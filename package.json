@@ -2,7 +2,7 @@
   "name": "hotel",
   "version": "1.0.0",
   "description": "start project",
-  "main": "/pug/index.html",
+  "main": "#src/pug/index.html",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
